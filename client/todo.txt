@@ -1,0 +1,27 @@
+1/ Créer une page où l'utilisateur choisit à quel opérateur se connecter et le garder connecté (pas de login : choisir dans une liste et valider)
+2/ Créer une page accessible uniquement à un opérateur connecté. Sur cette page l'opérateur peut réaliser 3 actions : "pickup", "checkup", "packup". Il doit choisir une des 3 actions.
+Changer la couleur de fond selon l'action choisie pour éviter à l'opérateur de se tromper.
+  3/ "pickup" : l'opérateur peut sélectionner un produit dans une liste (4 en db) et valider. Le produit sélectionné est ajouté à la db comme "item". (post item)
+  4/ "checkup" : l'opérateur peut sélectionner un item et lui attribuer un état "valide/non-valide". (update item)
+  5/ "packup" : l'opérateur peut sélectionner un item qui a un état "valide" et valider son envoi. (update item)
+
+
+On veut garder une trace de chaque action réalisée, pour chaque poste et pour chaque opérateur.
+On doit donc avoir une ligne en db pour chaque action (table "action") avec : l'item, le poste, l'opérateur.
+
+Changement de la db:
+- table item :
+    - ajouter une colonne (bool) pour savoir si l'item est passé par checkup,
+    - ajouter une colonne (string) pour savoir si l'objet est valide/non-valide,
+    - ajouter une colonne (bool) pour savoir s'il a été envoyé
+- table action :
+    - une id
+    - quel item
+    - quel poste
+    - quel opérateur
+    - created_at
+    - updated_at
+
+Tests techniques:
+1/ Récupérer la liste des products : DONE
+2/ Poster un item :
