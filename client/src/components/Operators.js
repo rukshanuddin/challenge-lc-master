@@ -5,12 +5,14 @@ import { connect } from "react-redux";
 import { railsActions } from "redux-rails";
 import {
   CircularProgress,
-  List,
-  ListItem,
   ListItemText,
   ListItemAvatar,
   Avatar,
-  Typography
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow
 } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import _ from "lodash";
@@ -26,25 +28,31 @@ const styles = theme => ({
   },
   todo: {
     marginTop: theme.spacing.unit * 4
+  },
+  cell: {
+    fontSize: 16
   }
 });
 
 class Operators extends Component {
   static propTypes = {
     fetchOperators: PropTypes.func,
-    fetchProducts: PropTypes.func,
+    fetchOperatorsPoste: PropTypes.func,
+    fetchPostes: PropTypes.func,
     operators: PropTypes.array,
-    products: PropTypes.array,
+    operatorsPoste: PropTypes.array,
+    postes: PropTypes.array,
     loading: PropTypes.bool
   };
 
   componentDidMount() {
     this.props.fetchOperators();
-    this.props.fetchProducts();
+    this.props.fetchOperatorsPoste();
+    this.props.fetchPostes();
   }
 
   render() {
-    const { classes, loading, operators, products } = this.props;
+    const { classes, loading, operators, operatorsPoste, postes } = this.props;
 
     if (loading) {
       return (
@@ -56,22 +64,50 @@ class Operators extends Component {
 
     return (
       <div className={classes.root}>
-        <List>
-          {_.map(operators, operator => (
-            <ListItem key={operator.id}>
-              <ListItemAvatar>
-                <Avatar alt={`Avatar ID ${operator.id}`} />
-              </ListItemAvatar>
-              <ListItemText inset primary={operator.attributes.name} />
-            </ListItem>
-          ))}
-        </List>
-        <Typography className={classes.todo}>
-          <em>
-            TODO :<br />
-            Lien vers dashboard personnel avec suivi des points
-          </em>
-        </Typography>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell className={classes.cell}/>
+              {_.map(postes, poste => {
+                return(
+                  <TableCell key={`head${poste.id}`} className={classes.cell}>
+                    {poste.attributes.category}
+                  </TableCell>
+                );
+              })}
+              <TableCell className={classes.cell}>Total</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {_.map(operators, operator => {
+              let total = 0;
+              return(
+                <TableRow key={`row${operator.id}`}>
+                  <TableCell key={`cell${operator.id}`} className={classes.cell} style={{display: 'flex', alignItems: 'center'}}>
+                    <ListItemAvatar>
+                      <Avatar alt={`Avatar ID ${operator.id}`} />
+                    </ListItemAvatar>
+                    <ListItemText inset primary={operator.attributes.name} />
+
+                  </TableCell>
+                    {_.map(postes, poste => {
+                      let counter = 0;
+                      {_.map(operatorsPoste, operatorPoste => {
+                        if (operatorPoste.attributes.operator_id === operator.id && operatorPoste.attributes.poste_id === poste.id) {
+                          counter += 1;
+                          total += 1;
+                        }
+                      })}
+                      return(
+                        <TableCell key={`cell${poste.id}`}className={classes.cell}>{counter}</TableCell>
+                      );
+                    })}
+                  <TableCell key={`count${operator.id}`} className={classes.cell}>{total}</TableCell>
+                </TableRow>
+              );
+            })}
+          </TableBody>
+        </Table>
       </div>
     );
   }
@@ -79,7 +115,8 @@ class Operators extends Component {
 
 const mapStateToProps = state => ({
   operators: state.Operators.models,
-  products: state.Products.models,
+  operatorsPoste: state.OperatorsPoste.models,
+  postes: state.Postes.models,
   loading: state.Operators.loading
 });
 
@@ -87,8 +124,11 @@ const mapDispatchToProps = dispatch => ({
   fetchOperators: () => {
     dispatch(railsActions.index({ resource: "Operators" }));
   },
-  fetchProducts: () => {
-    dispatch(railsActions.index({ resource: "Products" }));
+  fetchOperatorsPoste: () => {
+    dispatch(railsActions.index({ resource: "OperatorsPoste" }));
+  },
+  fetchPostes: () => {
+    dispatch(railsActions.index({ resource: "Postes" }));
   }
 });
 

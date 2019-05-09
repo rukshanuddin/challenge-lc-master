@@ -9,6 +9,17 @@ export default {
     },
     Products: {
       controller: "products"
+    },
+    Items: {
+      controller: "items"
+    },
+    OperatorsPoste: {
+      controller: "operators_poste"
+    }
+  },
+  fetchParams: {
+    headers: {
+      'content-type':'application/json; charset=utf-8'
     }
   }
 };

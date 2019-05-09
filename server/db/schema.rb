@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2019_03_04_084602) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["product_id"], name: "index_items_on_product_id"
+    t.string "check", default: "Not checked"
+    t.integer "sent", default: 0
   end
 
   create_table "operators", force: :cascade do |t|

@@ -4,5 +4,7 @@ Rails.application.routes.draw do
     resources :operators, only: %i(index)
     resources :postes, only: %i(index)
     resources :products, only: %i(index)
+    resources :items, only: [:index, :create, :destroy, :update]
+    resources :operators_poste, only: [:index, :create, :destroy, :update]
   end
 end

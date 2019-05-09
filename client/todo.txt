@@ -1,4 +1,9 @@
 1/ Créer une page où l'utilisateur choisit à quel opérateur se connecter et le garder connecté (pas de login : choisir dans une liste et valider)
+Il faut l'id de l'opérateur pour les opérations en db, et il faut le nom pour l'affichage sur le client.
+  a/ Changer l'affichage pour indiquer qui est logged.
+  b/ Remplacer le dropdown menu par un bouton logout (dans Login.js).
+  c/ Afficher "Logout" dans Sidebar.js.
+  d/ Empêcher de cliquer sur login si pas d'opérateur sélectionner.
 2/ Créer une page accessible uniquement à un opérateur connecté. Sur cette page l'opérateur peut réaliser 3 actions : "pickup", "checkup", "packup". Il doit choisir une des 3 actions.
 Changer la couleur de fond selon l'action choisie pour éviter à l'opérateur de se tromper.
   3/ "pickup" : l'opérateur peut sélectionner un produit dans une liste (4 en db) et valider. Le produit sélectionné est ajouté à la db comme "item". (post item)
@@ -24,4 +29,20 @@ Changement de la db:
 
 Tests techniques:
 1/ Récupérer la liste des products : DONE
-2/ Poster un item :
+2/ Poster un item : DONE
+
+react, ruby on rails et sqlite
+https://medium.com/wineofbits/my-first-ruby-on-rails-react-app-in-just-15-minutes-51d73f0de3c6
+
+
+redux-rails:
+https://github.com/instacart/redux-rails
+
+
+
+Reste à faire :
+- empêcher de soumettre un formulaire si un élément n'est pas sélectionné : DONE
+- l'url /Actions doit rediriger vers /Login si l'utilisateur n'est pas logué : DONE
+- améliorer la mise en page : 
+- utiliser react-rails au lieu de fetch : DONE
+- persist the login : DONE

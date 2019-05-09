@@ -31,12 +31,13 @@ const styles = theme => ({
   }
 });
 
-const Sidebar = ({ classes }) => (
+const Sidebar = (props) => (
+
   <Drawer
     variant="permanent"
     classes={{
-      root: classes.drawer,
-      paper: classes.drawerPaper
+      root: props.classes.drawer,
+      paper: props.classes.drawerPaper
     }}
     anchor="left"
   >
@@ -44,8 +45,8 @@ const Sidebar = ({ classes }) => (
       <NavLink
         exact
         to="/"
-        className={classes.link}
-        activeClassName={classes.active}
+        className={props.classes.link}
+        activeClassName={props.classes.active}
       >
         <ListItem button>
           <ListItemIcon>
@@ -57,8 +58,8 @@ const Sidebar = ({ classes }) => (
       <NavLink
         exact
         to="/postes"
-        className={classes.link}
-        activeClassName={classes.active}
+        className={props.classes.link}
+        activeClassName={props.classes.active}
       >
         <ListItem button>
           <ListItemIcon>
@@ -70,14 +71,45 @@ const Sidebar = ({ classes }) => (
       <NavLink
         exact
         to="/operators"
-        className={classes.link}
-        activeClassName={classes.active}
+        className={props.classes.link}
+        activeClassName={props.classes.active}
       >
         <ListItem button>
           <ListItemIcon>
             <PersonIcon />
           </ListItemIcon>
           <ListItemText primary="Operators" />
+        </ListItem>
+      </NavLink>
+      {
+        props.operatorLogged?
+          <NavLink
+            exact
+            to="/actions"
+            className={props.classes.link}
+            activeClassName={props.classes.active}
+          >
+            <ListItem button>
+              <ListItemIcon>
+                <PersonIcon />
+              </ListItemIcon>
+              <ListItemText primary="Actions" />
+            </ListItem>
+          </NavLink>
+        : null
+      }
+
+      <NavLink
+        exact
+        to="/login"
+        className={props.classes.link}
+        activeClassName={props.classes.active}
+      >
+        <ListItem button>
+          <ListItemIcon>
+            <PersonIcon />
+          </ListItemIcon>
+          <ListItemText primary={props.log} />
         </ListItem>
       </NavLink>
     </List>

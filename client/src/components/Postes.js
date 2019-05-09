@@ -5,10 +5,10 @@ import { connect } from "react-redux";
 import { railsActions } from "redux-rails";
 import {
   CircularProgress,
-  List,
-  ListItem,
-  ListItemText,
-  Typography
+  Table,
+  TableBody,
+  TableRow,
+  TableCell
 } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import _ from "lodash";
@@ -27,22 +27,28 @@ const styles = theme => ({
   },
   todo: {
     marginTop: theme.spacing.unit * 4
+  },
+  cell: {
+    fontSize: 16
   }
 });
 
 class Postes extends Component {
   static propTypes = {
     fetchPostes: PropTypes.func,
+    fetchOperatorsPoste: PropTypes.func,
     postes: PropTypes.array,
+    operatorsPoste: PropTypes.array,
     loading: PropTypes.bool
   };
 
   componentDidMount() {
     this.props.fetchPostes();
+    this.props.fetchOperatorsPoste();
   }
 
   render() {
-    const { classes, loading, postes } = this.props;
+    const { classes, loading, postes, operatorsPoste } = this.props;
 
     if (loading) {
       return (
@@ -54,24 +60,24 @@ class Postes extends Component {
 
     return (
       <div className={classes.root}>
-        <List>
-          {_.map(postes, poste => (
-            <ListItem key={poste.id}>
-              <ListItemText
-                className={classes.text}
-                inset
-                primary={poste.attributes.category}
-              />
-            </ListItem>
-          ))}
-        </List>
-        <Typography className={classes.todo}>
-          <em>
-            TODO pour aller plus loin :<br />
-            Suivi journalier du nombre de pièces traitées pour chaque poste
-            (tout opérateur confondu)
-          </em>
-        </Typography>
+        <Table>
+          <TableBody>
+            {_.map(postes, poste => {
+              let counter = 0;
+              {_.map(operatorsPoste, operatorPoste => {
+                if (operatorPoste.attributes.poste_id === poste.id ) {
+                  counter += 1;
+                }
+              })}
+              return(
+                <TableRow key={`row${poste.id}`}>
+                  <TableCell key={`name${poste.id}`} className={classes.cell}>{poste.attributes.category}</TableCell>
+                  <TableCell key={`count${poste.id}`} className={classes.cell}>{counter}</TableCell>
+                </TableRow>
+              );
+            })}
+          </TableBody>
+        </Table>
       </div>
     );
   }
@@ -79,12 +85,16 @@ class Postes extends Component {
 
 const mapStateToProps = state => ({
   postes: state.Postes.models,
+  operatorsPoste: state.OperatorsPoste.models,
   loading: state.Postes.loading
 });
 
 const mapDispatchToProps = dispatch => ({
   fetchPostes: () => {
     dispatch(railsActions.index({ resource: "Postes" }));
+  },
+  fetchOperatorsPoste: () => {
+    dispatch(railsActions.index({ resource: "OperatorsPoste" }));
   }
 });
 
