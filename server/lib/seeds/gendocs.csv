@@ -1,0 +1,27 @@
+Site Name,Link,Category,Languages & Frameworks,Comments
+Juicy Studio,http://juicystudio.com/services/readability.php?url,"a11y/accessibility, tool",,"Reading level algorithms only provide a rough guide, as they tend to reward short sentences made up of short words. Whilst they're rough guides, they can give a useful indication as to whether you've pitched your content at the right level for your intended audience."
+OverAPI,http://overapi.com/,cheat sheet,,Cheat sheets for various programming languages
+Wave,http://wave.webaim.org/,"a11y/accessibility, tool",,Web accessibility evaluation tool
+Hemingway App,http://www.hemingwayapp.com/,"a11y/accessibility, tool",,Hemingway App makes your writing bold and clear.
+A11y,https://a11yproject.com/,a11y/accessibility,,A community-driven effort to make web accessibility easier.
+GoalKicker,https://books.goalkicker.com/,book,,Free books compiled by the people at Stack Overflow. There is a book of resources for just about every major language and framework. 
+BuiltWith,https://builtwith.com/,tool,,Find out what websites are built with
+Web Developer,https://chrispederick.com/work/web-developer/,tool – extension,,"The Web Developer extension adds various web developer tools to a browser. The extension is available for Chrome, Firefox and Opera, and will run on any platform that these browsers support."
+Visual Studio Code,https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf,cheat sheet,,Visual Studio Code Keyboard Shortcuts for MacOS
+DevHints,https://devhints.io,cheat sheet,,A collection of cheat sheets 
+abhishekbanthia's Public-APIs list,https://github.com/abhishekbanthia/Public-APIs,tool – API,,This is an attempt to categorise different APIs scoured from the web which make their resources available for consumption.
+Accessibility,https://github.com/Heydon/inclusive-design-checklist,a11y/accessibility,,"Aims to be the biggest checklist of inclusive design considerations for the web ever. Includes items for accessibility, performance, device support, interoperability, and language."
+Accessibility Courses,https://github.com/mgifford/a11y-courses/blob/master/README.md,free learning,,"Courses, webinars, educational videos, and more, offered in web accessibility."
+toddmotto's Public APIs list,https://github.com/toddmotto/public-apis,tool – API,,A collective list of free APIs for use in software and web development.
+Flycut,https://itunes.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12,tool,,Clipboard manager allows you to copy and paste multiple items at a time
+Dash,https://kapeli.com/dash,tool,,Tool to quickly look up programming concepts
+,https://moritzgiessmann.de/accessibility-cheatsheet/,"a11y/accessibility, cheat sheet",,Practical approaches to Universal Design for making your website/webapp accessible to everyone
+Progressive Tooling,https://progressivetooling.com/,tool – performance,,"A list of community-built, third-party tools that can be used to improve page performance"
+Readable,https://readable.com/,"a11y/accessibility, tool",,"Whether you're a copywriter, marketer or running an online store, Readable provides the tools you need to make every word count. We'll help you improve the readability of your content, increase ROI and boost sales."
+StackBlitz,https://stackblitz.com/,tool – online IDE,"Angular, React, Ionic, TypeScript, RxJS, Svelte",Online IDE powered by Visual Code Studio
+SyntaxDB,https://syntaxdb.com/,documentation,,SyntaxDB allows users to quickly look up syntax for programming languages
+Apple Accessibility,https://www.apple.com/accessibility/mac/vision/,a11y/accessibility,,The most powerful tool for all creative minds.
+NV Access,https://www.nvaccess.org/,a11y/accessibility,,Empowering lives through non-visual access to technology
+Know your ARIA,https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html,blog,,"A primer on appropriately using aria-hidden='true' and role='none/presentation'. They each do very different things to elements, but their purposes are sometimes confused by developers."
+Section508.gov,https://www.section508.gov/,a11y/accessibility,,GSA government-wide IT accessibility program
+World Wide Web Consortium,https://www.w3.org/,a11y/accessibility,,The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web.

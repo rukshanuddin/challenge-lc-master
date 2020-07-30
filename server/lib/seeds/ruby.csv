@@ -1,0 +1,92 @@
+Topic,Site Name,Link,Flatiron Section,Category,Languages & Frameworks,Comments
+Active storage,RailsGuides,https://edgeguides.rubyonrails.org/active_storage_overview.html,,documentation,"Ruby, Rails, ActiveRecord",This guide covers how to attach files to your Active Record models
+ActiveRecord,RailsGuides,https://guides.rubyonrails.org/active_record_basics.html,,documentation,"Ruby, Rails, ActiveRecord",This guide is an introduction to ActiveRecord
+Arguments and Parameters in Ruby,RoR Guide,http://rorguide.blogspot.com/2011/06/difference-between-argument-and.html,,free learning,Ruby,Defines arguments and parameters in Ruby
+Array methods,freeCodeCamp,https://medium.freecodecamp.org/ruby-using-the-select-map-and-reduce-methods-together-a9b2af30804b,Procedural Ruby,blog,Ruby,"How to use .select, .map, .reduce together "
+Array methods,freeCodeCamp,https://medium.freecodecamp.org/six-ruby-array-methods-you-need-to-know-5f81c1e268ce,,blog,Ruby,Explanations of six useful Ruby Array methods
+Arrays,Ruby Lang,https://docs.ruby-lang.org/en/2.0.0/Array.html,Procedural Ruby,documentation,Ruby,Ruby Array class documentation
+Authentication,RailsCasts,http://railscasts.com/episodes/250-authentication-from-scratch-revised,,video,"Ruby, Rails","Simple password authentication is easy to do with has_secure_password. Here you will learn how to make a complete Sign Up, Log In, and Log Out process as well as restrict access to certain actions."
+Authoritative book on Ruby,Pirated on GitHub,https://github.com/randytorres/Books/blob/master/Pragmatic.Programming.Ruby.1.9.and.2.0.4th.Edition.Jun.2013.pdf,,book,Ruby,"Don't try to read the whole thing, use sections as needed to add depth after mastering simpler content in video tutorial."
+Bundler,Bundler,http://bundler.io/,,documentation,Ruby,Getting started with Bundler
+Capybara,Github gist,https://gist.github.com/zhengjia/428105,Sinatra,cheat sheet,"Capybara, erb",
+Capybara,Kapeli,https://kapeli.com/cheat_sheets/Capybara.docset/Contents/Resources/Documents/index,Sinatra,blog post,"Capybara, erb",handy cheat sheet
+Control Expressions,ruby-doc.org,https://ruby-doc.org/core-2.5.0/doc/syntax/control_expressions_rdoc.html#label-while+Loop,,documentation,Ruby,"While loop, until loop, for loop etc"
+Date and time,Tutorials Point,https://www.tutorialspoint.com/ruby/ruby_date_time.htm,,free learning,Ruby,Covers date and time concepts in Ruby
+Easily format time string,For a Good Strftime,https://foragoodstrftime.com/,,tool – online IDE,,"Good way to easily format time.  
+You can also just type the desired date format in the top line."
+Edge cases,Ruby Koans,http://rubykoans.com/,,free learning,Ruby,Learn Ruby with the edge case Ruby koans
+Flatiron Tutorial,Shortcut foo,https://www.shortcutfoo.com/app/dojos/ruby-arrays/cheatsheet,,cheat sheet,Ruby,"easier to read/scan than ruby docs, but you can always go back to ruby docs for official info"
+Gem,BetterErrors,https://github.com/BetterErrors/better_errors,,gem,Ruby,Better Errors replaces the standard Rails error page with a much better and more useful error page
+Gem,rubocop,https://github.com/rubocop-hq/rubocop,,gem,Ruby,RuboCop is a Ruby static code analyzer and code formatter
+Gemspec,Piotr Murach,https://piotrmurach.com/articles/writing-a-ruby-gem-specification/,Object Oriented Ruby,tutorial,Ruby,Writing a Ruby Gem Specification
+Get Chomp,Stack Overflow,https://stackoverflow.com/questions/23193813/how-does-gets-and-gets-chomp-in-ruby-work,,documentation,Ruby,How to use gets and gets.chomp
+Global Variables,ThoughtCo.,https://www.thoughtco.com/global-variables-2908384,,documentation,Ruby,Defines global variables
+Hash Intro,YouTube (Flatiron Tutorial),https://www.youtube.com/embed/0JSsFQGYaeA,,documentation,Ruby,Intro to hash
+Hashes,Ruby Lang,https://docs.ruby-lang.org/en/2.5.0/Hash.html,Procedural Ruby,documentation,Ruby,Ruby Hash class documentation
+"Index of Fies, Classes and Methods",ruby-doc.org,https://ruby-doc.org/core-2.1.2/,,documentation,Ruby,"Index of files, classes and methods"
+Integer,ruby-doc.org,https://ruby-doc.org/core-2.5.0/Integer.html#method-i-times,,documentation,Ruby,Times i block
+Intro to Ruby Arrays,YouTube (Flatiron Tutuorial),https://www.youtube.com/embed/W0Q_AyfolRw,,documentation,Ruby,Flatiorn tutorial: introduces Ruby arrays
+Literals (%),Ruby Lang,https://docs.ruby-lang.org/en/2.6.0/syntax/literals_rdoc.html#label-Percent+Strings,,documentation,Ruby,Types of percent strings in Ruby
+Literals in Ruby,Ruby Lang,https://docs.ruby-lang.org/en/2.0.0/syntax/literals_rdoc.html,,documentation,Ruby,What are literals
+Method Arguments,Skorks,https://skorks.com/2009/08/method-arguments-in-ruby/,,documentation,Ruby,"Defines what they are, examples"
+Modules,Ruby Lang,https://docs.ruby-lang.org/en/2.0.0/Enumerable.html,Procedural Ruby,documentation,Ruby,Ruby Enumerable module documentation
+Object Orientation,YouTube (Flatiron Tutuorial),https://www.youtube.com/watch?v=Z_IoQCVNWtM,Object Oriented Ruby,tutorial,Ruby,Intro to object orientation (with Avi)
+"Operators, ||=",Stack Overflow,https://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby,Object Oriented Ruby,documentation,Ruby,||= definition and examples
+Pry,pryrepl,http://pryrepl.org/,,free learning,Ruby,How to use Pry
+"Puts, Prints, P",rubyguides.com,https://www.rubyguides.com/2018/10/puts-vs-print/,,documentation,Ruby,"Different b/w puts, prints, and p"
+Rails,RailsCasts,http://railscasts.com/,,free learning,"Ruby, Rails","Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers."
+Rails,RoR Screencasts,http://railscasts.com/episodes/196-nested-model-form-revised?autoplay=true,,video,"Ruby, Rails",Video on Nested Model Form
+Rails,Rails For Zombies Slides,http://railsforzombies.com.s3.amazonaws.com/Rails-For-Zombies-Slides.pdf,,free learning,"Ruby, Rails",A collection of slides detailing the contents of a previous(?) version of Rails For Zombies
+Rails,Learn Rails 5.2,http://www.allitebooks.in/learn-rails-5-2/,,book,"Ruby, Rails",Free pdf book - Accelerated Web Development with Ruby on Rails
+Rails,Rails Beginner Cheatsheet,http://www.pragtob.info/rails-beginner-cheatsheet/,,cheat sheet,"Ruby, Rails",The Rails Beginner Cheat Sheet
+Rails,Rails Notes for Professionals book,https://books.goalkicker.com/RubyOnRailsBook/,,book,"Ruby, Rails",Free book on Rails compiled by the people at Stack Overflow
+Rails,Rails Generator Cheatsheet,https://gist.github.com/awkale/bc41dd795971dd4498ad2cf1a9b85b27,,cheat sheet,"Ruby, Rails",Cheat Sheet for Rails g commands
+Rails,RailsGuides,https://guides.rubyonrails.org/,,documentation,"Ruby, Rails",Comprehensive documentation for (almost) every aspect of Rails
+Rails,Ruby on Rails Commands,https://itunes.apple.com/us/app/ruby-on-rails-commands/id440877359?mt=8,,free learning,"Ruby, Rails",A flashcard app for iOS that allows for review of rails commands on the go
+Rails,Codecademy: Ruby on Rails,https://www.codecademy.com/learn/learn-rails,,free learning,"Ruby, Rails","Utilize our Ruby on Rails tutorial to learn the basics of building applications with this convenient, powerful web development framework."
+Rails,PluralSight,https://www.pluralsight.com/courses/code-school-rails-for-zombies,,paid learning,"Ruby, Rails",Combines screencasts with in-browser coding to provide an interactive learning experience teaching the basics of Ruby on Rails.
+Rails,Ruby on Rails Tutorial,https://www.railstutorial.org/book,,book,"Ruby, Rails","An e-book (also available in print) that walks through Rails ""from zero to deploy"""
+Rails,Rails For Zombies Cheatsheets,https://www.slideshare.net/edith890/rails-for-zombies2cheatsheets,,cheat sheet,"Ruby, Rails","A pdf of cheat sheets for Rails developed for use with RFZ, but very handy as a standalone"
+Rails App Speed,Speedshop.co,https://www.speedshop.co/2019/01/10/three-activerecord-mistakes.html,,blog,"Ruby, Rails",Covers easy ways to speed up your Rails Application by changing the way you use ActiveRecord
+Rails code structure,Where Do I Put My Code in Rails?,http://codefol.io/posts/where-do-i-put-my-code-in-rails-updated/,,blog,"Ruby, Rails",A blog post on the topic of where things go in Rails apps
+Regex,Rubular,http://rubular.com/,Procedural Ruby,free learning,Ruby,An online Ruby regular expression editor
+Regex,Bastards Book of Ruby,http://ruby.bastardsbook.com/chapters/regexes/,Regex,book,Ruby,An essential mini-language for text-matching and manipulation
+Regex,How to Become a Regex Power User,https://memberpress.com/how-to-become-a-regular-expression-power-user/,Regex,blog,Ruby,
+Regex,Regular Expressions 101,https://regex101.com/,Regex,tool – online IDE,Ruby,
+Regex,RegexOne,https://regexone.com/,Procedural Ruby,free learning,Ruby,Ruby regular expressions tutorials with practice exercises
+Regex,Regexr,https://regexr.com/,Regex,tool – online IDE,Ruby,
+Reserved Keywords,Ruby Lang,https://docs.ruby-lang.org/en/2.2.0/keywords_rdoc.html,,documentation,Ruby ,easy to read
+Resource list,Awesome Ruby,https://github.com/markets/awesome-ruby,,git repo,Ruby,"A categorized community-driven collection of awesome Ruby libraries, tools, frameworks and software."
+RSpec,RSpec,http://rspec.info/,,documentation,Ruby,Testing tool written in Ruby to test Ruby code
+RSpec,Treehouse,https://blog.teamtreehouse.com/an-introduction-to-rspec,,documentation,Ruby,Intro to RSpec
+RSpec,Github,https://github.com/learn-co-curriculum/intro-to-tdd-rspec-and-learn/blob/master/README.md,,documentation,Ruby,"Define the purpose of a code test.
+"
+Ruby,OverAPI,http://overapi.com/ruby,,cheat sheet,Ruby,A comprehensive Ruby cheat sheet
+Ruby,RubyKoans,http://rubykoans.com/,Ruby,free learning,Ruby,Learn Ruby and testing through zen-like koans
+Ruby,Ruby Notes for Professionals book,https://books.goalkicker.com/RubyBook/,,book,Ruby,Free book on Ruby compiled by the people at Stack Overflow
+Ruby,RubyGuides,https://www.rubyguides.com/,,free learning,Ruby,Guides on various Ruby topics
+Ruby Docs,Ruby Lang,https://docs.ruby-lang.org/en/2.5.0/,Intro to Ruby Development,documentation,Ruby,
+Ruby Drills,Ruby Drills,https://www.cs.cmu.edu/~15110-f12/drills.html,,practice,Ruby,Test your knowledge with some 100 drills
+Ruby exercises and solutions,Launch School,https://launchschool.com/books/ruby/read/intro_exercises,,practice,Ruby,free resources here besides the paid subscriptions
+Ruby Methods,w3resource,https://www.w3resource.com/ruby/ruby-methods.php,,documentation,Ruby,Ruby methods in detail
+Ruby on Rails errors,Top Ten Ruby on Rails Errors and How To Avoid Them,https://rollbar.com/blog/top-10-ruby-on-rails-errors/,,blog,"Ruby, Rails",Top Ten Ruby on Rails Errors and How To Avoid Them
+Ruby Programming,The Pragmatic Studio,https://pragmaticstudio.com/ruby,,free learning,Ruby,Free tutorials available
+Ruby Ranges,rubylearning.com,http://rubylearning.com/satishtalim/ruby_ranges.html,,documentation,Ruby,Short - all about ranges
+Ruby Ranges,rubyguides.com,https://www.rubyguides.com/2016/06/ruby-ranges-how-do-they-work/,,documentation,Ruby,"How to create a Ruby range, use the step & include? methods in Ruby, and how ranges work under the hood"
+Ruby Ranges,techotopia.com,https://www.techotopia.com/index.php/Ruby_Ranges,,documentation,Ruby,All about ranges
+Ruby Ranges,tutorialspoint.com,https://www.tutorialspoint.com/ruby/ruby_ranges.htm,,documentation,Ruby,"More comprehensive, all about ranges"
+Ruby Variables,zetcode.com,http://zetcode.com/lang/rubytutorial/variables/,,documentation,Ruby,Examines variables in detail
+Safe navigation operator,,https://www.competa.com/blog/ruby-safe-navigation-operator-methods/,,blog,Ruby,Explanation of Ruby's safe navigation operator
+Scraping  ,The Bastards Book of Ruby,http://ruby.bastardsbook.com/chapters/html-parsing/,OO - Scraping,book,"Ruby, Nokogiri, CSS",referenced in Flatiron scraping lesson https://learn.co/tracks/online-software-engineering-full-time/object-oriented-ruby/scraping/scraping
+Self,Yehuda Katz,https://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/,Object Oriented Ruby,"blog post, documentation",Ruby,Metaprogramming in Ruby
+Shotgun,,https://superuser.com/questions/609794/kill-what-ever-is-running-on-port-8080,Sinatra,blog,"Ruby, Sinatra",Kill your shotgun session if it gets stuck open
+Sinatra,Sinatra,http://sinatrarb.com/,Sinatra,documentation,"Ruby, Sinatra",Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.
+Sinatra Recipes,Sinatra Recipes,http://recipes.sinatrarb.com/,Sinatra,documentation,"Ruby, Sinatra",Community contributed recipes and techniques.
+Split Method,ruby-doc.org,https://ruby-doc.org/core-2.6.3/String.html#method-i-split,,documentation,Ruby,"Divides str into substrings based on a delimiter, returning an array of these substrings."
+String,ruby-doc,https://ruby-doc.org/core-2.1.4/String.html,,documentation,Ruby,Intro to string
+Symbol,ruby-doc.org,https://ruby-doc.org/core-2.6.3/Symbol.html,,documentation,Ruby,Class: symbol definition w/ examples
+Testing,Capybara,http://teamcapybara.github.io/capybara/,Sinatra,documentation,"Ruby, Sinatra",Acceptance test framework for web applications
+Truthy and Falsey,Github,https://gist.github.com/jfarmer/2647362,,documentation,Ruby,Truthy and Falsey intro
+Version management,RVM,https://rvm.io/,,"documentation, gem","Ruby, RVM",Ruby Version Manager (RVM) is a gem that manages different versions of Ruby and can create gemsets per version
+version manager,rbenv,https://github.com/rbenv/rbenv,,"documentation, gem",Ruby,Groom your app’s Ruby environment
+Website Templates,Devdap,https://devdap.com/free-ruby-on-rails-themes/,,tool – templates,"Ruby, Rails","Open Source Ruby On Rails free Website Templates, Ruby On Rails Themes developed by devdap with multiple versions Under MIT License."

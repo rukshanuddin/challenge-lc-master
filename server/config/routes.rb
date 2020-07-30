@@ -6,5 +6,8 @@ Rails.application.routes.draw do
     resources :products, only: %i(index)
     resources :items, only: [:index, :create, :destroy, :update]
     resources :operators_poste, only: [:index, :create, :destroy, :update]
+
+    resources :topics, only: [:index, :show]
+    resources :links, only: [:index, :create, :destroy, :update]
   end
 end

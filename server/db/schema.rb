@@ -10,15 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_04_084602) do
+ActiveRecord::Schema.define(version: 2020_07_07_182128) do
 
   create_table "items", force: :cascade do |t|
     t.integer "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["product_id"], name: "index_items_on_product_id"
-    t.string "check", default: "Not checked"
-    t.integer "sent", default: 0
+  end
+
+  create_table "links", force: :cascade do |t|
+    t.string "name"
+    t.string "link"
+    t.string "category"
+    t.string "section"
+    t.string "language"
+    t.string "blurb"
+    t.integer "topic_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["topic_id"], name: "index_links_on_topic_id"
   end
 
   create_table "operators", force: :cascade do |t|
@@ -45,6 +56,13 @@ ActiveRecord::Schema.define(version: 2019_03_04_084602) do
 
   create_table "products", force: :cascade do |t|
     t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "topics", force: :cascade do |t|
+    t.string "name"
+    t.string "img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

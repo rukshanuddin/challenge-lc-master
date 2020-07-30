@@ -1,0 +1,34 @@
+Topic,Site Name,Link,Flatiron Section,Category,Languages & Frameworks,Comments
+Code Challenge,JavaScript 30,https://javascript30.com/,,practice,JavaScript,30-day Vanilla JavaScript coding challenge
+Compiler,Microsoft/TypeScript,https://github.com/microsoft/typescript,,documentation,TypeScript,TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+Compiler,TypeScript,http://www.typescriptlang.org/,,documentation,TypeScript,JavaScript that scales.
+Compiler tool,TS Node,https://www.npmjs.com/package/ts-node,,tool,"TypeScript, Node","TypeScript execution and REPL for node.js, with source map support."
+Compiler tool,TypeScript Playground,http://www.typescriptlang.org/play/index.html,,tool – online IDE,TypeScript,
+ECMAScript,ECMAScript 6 Tutorial,https://ccoenraets.github.io/es6-tutorial/,,"free learning, tutorials","JavaScript, ECMAScript, Babel, Webpack","In this tutorial, you create a Mortgage Calculator with amortization table using many of the ECMAScript 6 features. You use Babel and Webpack to transpile the ECMAScript 6 application and run it in current browsers."
+Inheritance,Eli Bendersky's Website,https://eli.thegreenplace.net/2013/10/22/classical-inheritance-in-javascript-es5,,blog,JavaScript,Classical inheritance in JavaScript ES5
+JavaScript,Eloquent JavaScript,http://eloquentjavascript.net/,,book,JavaScript,Eloquent JavaScript Book
+JavaScript,JS Quick,http://www.cheat-sheets.org/saved-copy/jsquick.pdf,,cheat sheet,JavaScript,
+JavaScript,Traversy Media,http://www.traversymedia.com/,JavaScript,"free learning, videos",JavaScript,Lots of Youtube videos - covering different topics.  Super helpful!
+JavaScript,Javascript Notes for Professionals book,https://books.goalkicker.com/JavaScriptBook/,JavaScript,book,JavaScript,Free book on JavaScript compiled by the people at Stack Overflow
+JavaScript,Getify,https://github.com/getify/You-Dont-Know-JS,,books,JavaScript,You Don't Know JS Book Series
+JavaScript,Write Readable Code JavaScript,https://github.com/kingzez/write-readable-javascript-code,JavaScript,free learning,JavaScript,"Links to articles, videos on writing readable and maintainable code."
+JavaScript,33 Concepts Github,https://github.com/leonardomso/33-js-concepts,,"free learning, videos",JavaScript,"33 beginner and advance topics to learn, mix of tutorials and videos"
+JavaScript,P1xt Guides,https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md#start-of-content,,free learning,JavaScript,"A guide primarily focused on Frontend development, but including just enough of an introduction to Backend to enable an understanding of the ""entire process"" to prepare for productive entry to a Full Stack team as a confident and capable Frontend Developer"
+JavaScript,The Modern JavaScript Tutorial,https://javascript.info/,JavaScript,free learning,JavaScript,"Main course contains 2 parts which cover JavaScript as a programming
+language and working with a browser. "
+JavaScript,FreeCodeCamp,https://medium.freecodecamp.org/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27,JavaScript,videos,JavaScript,Beau's giant list of videos on JavaScript from basics to advance
+JavaScript,Async JavaScript cheetsheet,https://raw.githubusercontent.com/frontarm/async-javascript-cheatsheet/0fc4ce398819501062a9be311d1fcf35ececa00c/async-cheatsheet.png,JavaScript,cheat sheet,JavaScript,
+JavaScript,Javascript Visualizer,https://tylermcginnis.com/javascript-visualizer/,JavaScript,tool – online IDE,JavaScript,"A tool for visualizing Execution Context, Hoisting, Closures, and Scopes in JavaScript"
+JavaScript,Warror JS,https://warriorjs.com/,JavaScript,practice,JavaScript,Code your way through dungeons
+JavaScript,Youtube: In The Loop,https://www.youtube.com/watch?v=cCOL7MC4Pl0,,videos,JavaScript,Jake Archibald talk from JSCONF Asia 2018 on JS Event Loop.
+JavaScript,Khan Academy,https://www.khanacademy.org/computing/computer-programming,JavaScript,"free learning, practice",JavaScript,"Intro and advanced readings, videos, and practice problems"
+JavaScript,O'Reilly,http://speakingjs.com/,,"free learning, book",JavaScript,Free PDF of book Speaking JavaScript: An In-Depth Guide for Programmers
+JavaScript,Superhero.js,http://superherojs.com/,,free learning,JavaScript,"Creating, testing and maintaining a large JavaScript code base is not easy—especially since great resources on how to do this are hard to find. This page is a collection of the best articles, videos and presentations we've found on the topic."
+jQuery & Vue.js,,https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/,,blog,JavaScript,Replacing jQuery With Vue.js: No Build Step Necessary
+JS Design Patterns,,https://addyosmani.com/resources/essentialjsdesignpatterns/book/,,"free learning, book",JavaScript,Free PDF of book Learning JavaScript Design Patterns
+Learning,Ultimate Courses,https://ultimatecourses.com/,,paid learning,"Angular, TypeScript, RxJS, React, Vue, AngularJS, JS",
+Online IDE,CodeSandbox,https://codesandbox.io/?from-app=1,,tool – online IDE,"Vue, React, Angular, Preact, JavaScript","CodeSandbox is an online editor that helps you create web applications, from prototype to deployment"
+Redux,freeCodeCamp,https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6,Redux,blog,"JavaScript, Redux",Understanding Redux: The World’s Easiest Guide to Beginning Redux
+SVG Icons Library,Vivid.js,https://webkul.github.io/vivid/,,documentation,JavaScript,A JavaScript library which is built to easily customize and use the SVG Icons with a blaze.
+Testing,Mocha,https://mochajs.org/,Mocha,"tool – testing, documentation","JavaScript, Mocha","Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun"
+UI Framework,Google's Material UI,https://material-ui.com/,,"tool, open source",React,React components that implement Google's Material Design.

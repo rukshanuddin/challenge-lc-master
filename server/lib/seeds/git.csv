@@ -1,0 +1,23 @@
+Topic,Site Name,Link,Category,Flatiron Section,Comments
+Git Tutorial,Visualizing Git,http://git-school.github.io/visualizing-git/,free learning,,An interactive learning tutorial
+Git,Oh Shit Git,http://ohshitgit.com/,free learning,,What to do if you make a mistake. This isn't always addressed in beginner courses
+Git,Git,http://rogerdudler.github.io/git-guide/,free learning,,git guide with nice big pictures :)
+GitHub,GitHub,http://try.github.io/,free learning,,Resources to learn Git
+Git,Git Notes for Professionals book,https://books.goalkicker.com/GitBook/,book,,Free book on Git compiled by the people at Stack Overflow
+Git Commands,Bitbucket Support,https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html,free learning,,A list of basic Git commands
+Git Commands,Git feature workflow,https://gist.github.com/blackfalcon/8428401,free learning,,"Q&A through GIT commands, beginner and advanced git commands broken down a user-friendly way"
+Git Commands,Using Git,https://gist.github.com/hofmannsven/6814451,free learning,,Beginner and advanced git commands broken down a user-friendly way
+gitignore,.gitignore,https://gist.github.com/octocat/9257657,blog,,Some common .gitignore configurations
+Git,Git,https://git-scm.com/book/en/v2,documentation,,Git documentation
+Git,Git,https://git-scm.com/docs/git-config,documentation,,Git config documentation --> configure Git on your machine
+Markdown,Markdown Cheatsheet,https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet,cheat sheet,,A markdown quick reference
+,GitHub Guides,https://guides.github.com/introduction/flow/,free learning,,Understanding the GitHub flow
+GitHub Pages,Customizing GitHub Pages,https://help.github.com/categories/customizing-github-pages/,documentation,,Documentation on how to customize your Flatiron blog as well as make project pages
+GitHub Pages,GitHub Pages Help,https://help.github.com/categories/github-pages-basics/,documentation,,Documentation on how to customize your Flatiron blog as well as make project pages
+Introduction to GitHub,Intro to GitHub,https://lab.github.com/githubtraining/introduction-to-github,documentation,,Your sidekick for getting started on GitHub
+Git Branching,Learn Git Branching,https://learngitbranching.js.org/,free learning,,An interactive learning tutorial
+Git,Git Cheat Sheet,https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf,cheat sheet,,A list of Git commands
+Git Client,GitKraken,https://www.gitkraken.com/git-client,tool – git client,,"GitKraken is an awesome Git client that helps you visualize changes, implement version control, track contributors, and troubleshoot issues."
+Git Client,GitHub Desktop,https://desktop.github.com/,tool – git client,,"GitHub desktop is the Git client from GitHub that helps you visualize changes, implement version control, track contributors, and troubleshoot issues. Highly recommended."
+Git Tutorial,Atlassian Git Tutorials,https://www.atlassian.com/git/tutorials,free learning,,"Myriad tutorials from beginner to advanced. Some stuff is specific to Bitbucket, but they cover advanced topics generically. The Merging vs Rebasing and Resetting, Checking Out, and Reverting articles are really good."
+Git Commit,Chris Beams,https://chris.beams.io/posts/git-commit/,blog,,Best guide I've found to writing a Git commit message

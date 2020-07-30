@@ -1,0 +1,4 @@
+Site Name,Link,Category,Languages & Frameworks,Comments
+Pry,http://pryrepl.org/,documentation,Ruby,"Pry is a powerful alternative to the standard IRB shell for Ruby. It features syntax highlighting, a flexible plugin architecture, runtime invocation and source and documentation browsing."
+Sitepoint,https://www.sitepoint.com/rubyists-time-pry-irb/,blog,Ruby,
+RSpec Rails Examples,https://github.com/eliotsykes/rspec-rails-examples,,"Ruby, Rails",RSpec cheatsheet & Rails app: Learn how to expertly test Rails apps from a model codebase

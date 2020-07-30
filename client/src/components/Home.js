@@ -21,11 +21,14 @@ const Home = ({ classes }) => (
   <div className={classes.root}>
     <img src={hello} alt="welcome" className={classes.img} />
     <Typography variant="h5" paragraph>
-      Hello! Happy coding :)
+      Hi! Welcome to The Block!
+    </Typography>
+    <Typography variant="h6" paragraph>
+      This is Flatiron School's Big-Ass List of Coding Knowledge!
     </Typography>
     <Typography>
-      Do not hesitate to <a href="mailto:baptiste@lecloset.fr">contact us</a> if
-      necessary
+      Do not hesitate to <a href="rukshan.uddin@gmail.com">contact me</a> if you
+      would like!
     </Typography>
   </div>
 );

@@ -1,0 +1,119 @@
+Topic,Site Name,Link,Category,Languages & Frameworks,Comments
+CSS,CSS Tricks,https://css-tricks.com/newsletters/,newsletter,CSS,We hand-craft this newsletter every week to include the most interesting and relevant news and information published that week both on CSS-Tricks and off.
+CSS,CSS Weekly,https://css-weekly.com/archives/,newsletter,CSS,
+Pre-built styling,CSS3 Generator,http://css3generator.com/,tool – generator,CSS3,Creates bits of code to insert into your site's stylesheet
+Grid,Grid: Cheatsheet,http://grid.malven.co/,cheat sheet,CSS3,"Grid cheat sheet, it's interactive"
+Element Sizing,PX to EM,http://pxtoem.com/,tool,CSS3,"Web elements are normally measured in pixels but this can vary when it comes to font which can be measured in EMs or ENs, so here’s a converter"
+Styles,CSS Zen Garden,http://www.csszengarden.com/,examples,CSS3,All the pages on this site run the same HTML file—the only thing that’s changed is the stylesheet
+Flexbox,Flexbox Defense,http://www.flexboxdefense.com/,practice,CSS3,Learn flexbox in a game-style format
+CSS,100daysofcss,https://100dayscss.com/,code challenges,CSS3,CSS code challenges
+Flexbox & Grid,,https://aerolab.co/blog/flexbox-grids,blog,CSS3,We decided to debunk the myths around Flexbox & Grids in order to show you the power of these two technologies working together.
+CSS3,CSS Notes for Professionals book,https://books.goalkicker.com/CSSBook/,book,CSS3,Free book con CSS compiled by the people at Stack Overflow
+Framework,Bulma,https://bulma.io/,documentation,CSS3,New CSS framework. Great alternative to bootstrap!
+Selectors,Envato Tuts+,https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048,blog,CSS3,An article about 30 handy CSS selectors you should know how to use. The bottom of the article also has a list of Premium CSS Items.
+CSS3,CSS Tricks,https://css-tricks.com/,"blog, free learning",CSS3,Great blog on CSS topics
+Selectors,CSS Tricks,https://css-tricks.com/almanac/selectors/a/adjacent-sibling/,blog,CSS3,An article about how to use and how NOT to use the CSS sibling selector.
+Flexbox,A Complete Guide to Flexbox,https://css-tricks.com/snippets/css/a-guide-to-flexbox/,blog,CSS3,"Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart."
+Grid,A Complete Guide to Grid,https://css-tricks.com/snippets/css/complete-guide-grid/,blog,CSS3,"CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (Grid Container) and to that element's children (Grid Items)."
+Grid,CSS Grid,https://cssgrid.io/,free learning,CSS3,Learn CSS Grid with Wes Bos in 25 pretty good videos. From fundamentals to real world in about 4 hours.
+Grid,CSS Grid Garden,https://cssgridgarden.com/,practice,CSS3,Learn grids in a game-style format
+Pre-built styling,Animate.css,https://daneden.github.io/animate.css/,tool – generator,CSS3,Just-add-water CSS animations
+CSS3,MDN,https://developer.mozilla.org/en-US/docs/Web/CSS,documentation,CSS3,Documentation for CSS3 elements
+Flexbox,What the Flexbox!?,https://flexbox.io/,free learning,CSS3,"A simple, free 20 video course that will help you master CSS Flexbox!"
+Flexbox,Flexbox Froggy,https://flexboxfroggy.com/,practice,CSS3,Learn flexbox in a game-style format
+Selectors,CSS Diner,https://flukeout.github.io/,practice,CSS3,"Fun gamified practice for learning CSS selectors, can be completed in 30 minutes or less"
+Flexbox & Grid,,https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/,blog,CSS3,How to combine Flexbox and CSS grids for efficient layouts
+Code challenge,Design Challenge,https://github.com/lukejones/designchallenge/tree/site_archive/challenges,practice,CSS3,Design challenges created to test the processes and creativity of any designer.
+Grids,Grid by Example,https://gridbyexample.com/,free learning,CSS3,Everything you need to learn CSS Grid Layout
+Flexbox,Flexbox Zombies,https://mastery.games/p/flexbox-zombies,free learning,CSS3,Flexbox is incredibly powerful. But it's also crazy hard to master. So we all end up depending on a cheat sheet and some mad guessing in the dev tools.
+Framework,Materialize,https://materializecss.com/,documentation,CSS3,A modern responsive front-end framework based on Material Design
+Flexbox,How Flexbox Works,https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35,blog,CSS3,
+CSS,Normalize.css,https://necolas.github.io/normalize.css/,resource,CSS3,Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
+Pre-built styling,Pure,https://purecss.io/,tool – template,CSS3,A stylesheet download to easily add pre-built CSS elements to you website
+Specificity,Specificity Calculator,https://specificity.keegan.st/,tool,CSS3,A visual way to understand CSS specificity. Change the selectors or paste in your own.
+Specificity,CSS Specificity Wars,https://stuffandnonsense.co.uk/archives/css_specificity_wars.html,blog,CSS3,Draws a parallel between CSS and Star Wars
+CSS3,,https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use,examples,CSS3,12 features new to CSS3
+Animations,,https://www.creativebloq.com/inspiration/css-animation-examples,examples,CSS3,17 awesome examples of CSS animations
+Pre-built styling,CSSmatic,https://www.cssmatic.com/,tool – generator,CSS3,
+Page layout,Grid to Flex,https://www.gridtoflex.com/,blog,CSS3,Flexbox fallbacks for popular UI solutions that use CSS Grid.
+Responsiveness,SitePoint,https://www.sitepoint.com/responsive-web-design-tips-bootstrap-css/,blog,CSS3,Tips on how to control how your site looks in relation to the user's screen size
+Preprocessors,,https://www.thebalancecareers.com/sass-vs-less-2071912,blog,CSS3,Sass and LESS Preprocessors
+CSS,W3C,https://www.w3.org/Style/CSS/,documentation,CSS3,"Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents."
+Animations,W3C,https://www.w3.org/TR/css-animations-1/,documentation,CSS3,"This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior."
+Selectors,CSS Selectors Reference,https://www.w3schools.com/cssref/css_selectors.asp,free learning,CSS3,"In CSS, selectors are patterns used to select the element(s) you want to style."
+CSS3,W3Schools,https://www.w3schools.com/cssref/default.asp,free learning,CSS3,Documentation for CSS3 elements
+Selectors,Try CSS Selector,https://www.w3schools.com/cssref/trysel.asp,tool,CSS3,"Interactive tool which shows a list of CSS selectors of the left which, when clicked, will highlight their respective elements on the right and give more information in a pop-up box."
+CSS,CSSmatic,https://www.cssmatic.com/,tool – generator,CSS3,"Generates code for gradients, border radius, noise texture, and box shadow"
+CSS grid,danwebb,https://danwebb.co/journal/how-to-build-complicated-grids-using-css-grid,tutorial,CSS3,How to build complicated grids using CSS grid
+Flexbox,Flexbox Cheatsheet,https://yoksel.github.io/flex-cheatsheet/,,CSS3,Displays CSS flexbox properties in examples
+Pre-built styling,Animate for Less,http://animateforless.com/,tool – generator,"CSS3, Less",Collection of 84 ready-to-go cross-browser CSS animations that you can drop into any website.
+Preprocessors,Less,http://lesscss.org/,documentation,"CSS3, Less","It's CSS, with just a little more."
+Preprocessors,Learn LESS in 10 Minutes (or Less),https://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less,free learning,"CSS3, Less",
+Preprocessors,Sass,https://sass-lang.com/,documentation,"CSS3, Sass","CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+Pre-built styling,Motion UI Playground,https://zurb.com/playground/motion-ui,tool – generator,"CSS3, Sass",A Sass library for creating flexible CSS transitions and animations.
+Preprocessors,,https://www.keycdn.com/blog/sass-vs-less,blog,"CSS3, Sass, Less",CSS Preprocessors - Sass vs Less
+Nokogiri & Scraping,Bastards Book of Ruby,http://ruby.bastardsbook.com/chapters/html-parsing/,book,HTML,Use for CLI project scraping
+Bootstrap,Bootstrap 4 Cheat Sheet,https://hackerthemes.com/bootstrap-cheatsheet/,cheat sheet,"HTML, Bootstrap",An interactive list of Bootstrap classes for version 4.1.3
+HTML4,Stanford University,https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf,cheat sheet,HTML4,Handy organized list of HTML tags and descriptions of how they are commonly used. Please note that this list is pre-HTML5; some of the tags and attributes are no longer in use.
+Framework,HTML KickStart,http://www.99lime.com/elements/,tool – framework,HTML5,"Ultra–lean HTML5, CSS, & JS building blocks for rapid website production"
+HTML5,HTML5 Notes for Professionals book,https://books.goalkicker.com/HTML5Book/,book,HTML5,Free book on HTML compiled by the people at Stack Overflow
+Forms,How to Structure an HTML Form,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form,blog,HTML5,The flexibility of HTML forms makes them one of the most complex structures in HTML; you can build any kind of basic form using dedicated form elements and attributes. Using correct structure when building an HTML form will help ensure that the form is both usable and accessible.
+HTML5,MDN,https://developer.mozilla.org/en-US/docs/Web/HTML/Element,documentation,HTML5,Documentation for HTML5
+Bootstrap,Bootstrap,https://getbootstrap.com/docs/4.3/getting-started/introduction/,tool – framework,HTML5,"Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page."
+Framework,HTML5 Boilerplate,https://html5boilerplate.com/,tool – template,HTML5,"HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package."
+Templates,HTML5 UP!,https://html5up.net/,tool – template,HTML5,"HTML5 UP makes spiffy HTML5 site templates that are fully responsive, built on intelligent HTML5 and CSS 3, super customizable, and 100% free under the Creative Commons."
+APIs,What Web Can Do Today,https://whatwebcando.today/,tool,HTML5,An overview of the device integration HTML5 APIs
+HTML5,W3Schools,https://www.w3schools.com/html/html5_syntax.asp,free learning,HTML5,HTML5 best practices
+HTML5,W3Schools,https://www.w3schools.com/tags/default.asp,free learning,HTML5,Documentation for all HTML5 elements
+Learning,Learn to Code Advanced HTML & CSS,https://learn.shayhowe.com/advanced-html-css/,blog,"HTML5, CSS3","Learn to Code Advanced HTML & CSS takes a deeper look at front-end design and development, expanding on what is covered in the beginner’s guide. Studying modern front-end development, this guide teaches the latest for any designer looking to round out their front-end skills."
+,Frontend Masters,https://frontendmasters.com/,paid learning,Multiple,"Advance your skills with in-depth, modern front-end engineering courses"
+Framework,Semantic UI,https://semantic-ui.com/,tool – framework,NodeJS,User Interface is the language of the web
+Color,Colormind,http://colormind.io/,tool – color,,Click on “Website Colors” in the menu for an awesome demo landing page that incorporates your selected color palette
+Color,Color Safe,http://colorsafe.co/,"tool – color, a11y/accessibility",,Generates accessible color schemes for you
+Stock photos,Freebbble,http://freebbble.com/?ref=producthunt,resource,,Free stock photos
+Metadata,The Open Graph Protocol,http://ogp.me/,documentation,,The Open Graph protocol enables any web page to become a rich object in a social graph.
+Color,Paletton,http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF,tool – color,,
+UI,99Lime UIKIT,http://www.99lime.com/uikit/,tool – UI Kit,,Over 99 ultra-slick User Interface elements to use in your Photoshop designs
+Lorem Ipsum,Cat Ipsum,http://www.catipsum.com/index.php#.XI0kRhNKi_t,resource,,Litter your copy with more kitty.
+Color gradients,Ultimate CSS Gradient Generator,http://www.colorzilla.com/gradient-editor/,tool – color,,A powerful Photoshop-like CSS gradient editor from ColorZilla.
+Library,CDNJS,https://cdnjs.com/,tool,,"Currently, CDNJS is one of the most famous free and public web front-end CDN services which is used by ~2,999,000 websites worldwide."
+Chrome extension,Page Ruler,https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme,tool,,"Draw a ruler to get pixel dimensions and positioning, and measure elements on any web page. Page Ruler lets your draw out a ruler to any page and displays the width, height and position of it."
+Backgrounds,Cool Backgrounds,https://coolbackgrounds.io/,resource,,
+Color,Coolors,https://coolors.co/,tool – color,,Color scheme generator
+Web Design Freebies,,https://docs.google.com/spreadsheets/d/1qaUZxJSl4kHl-l16H2oC04HlidUNXwfSFExV_oD68Cg/htmlview#,tools,,Curated list of free web design resources
+Icons,Font Awesome,https://fontawesome.com/?from=io,resource,,These icons behave as text in CSS3
+Fonts,Font Awesome,https://fontawesome.com/cheatsheet,cheat sheet,,"After you're set up on the desktop or in code, quickly copy and paste the glyph, name, or unicode value of any icon."
+Framework,Foundation,https://foundation.zurb.com/,tool – framework,,The most advanced responsive front-end framework in the world.
+Stock photos,Freestocks,https://freestocks.org/,resource,,Free stock photos
+,The Front-End Checklist,https://frontendchecklist.io/,tool,,The Front-End Checklist Application is perfect for modern websites and meticulous developers!
+,Frontend Focus,https://frontendfoc.us/,newsletter,,"A once–weekly roundup of the best front-end news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser tech, and more."
+,Front-End Front,https://frontendfront.com/,blog,,A crowd curated feed of front-end related articles. 
+The Front-End Developer Handbook,Front-End Masters,https://frontendmasters.com/books/front-end-handbook/2018/,book,,
+Stock photos,Gratisography,https://gratisography.com/,resource,,Free stock photos
+Images,Lightbox,https://lokeshdhakar.com/projects/lightbox2/,tool – plugin,,Makes your pictures look amazing
+Color,Material Design,https://material.io/tools/color/#!/?view.left=1&view.right=1,"tool – color, a11y/accessibility",,"Create, share, and apply color palettes to your UI, as well as measure the accessibility level of any color combination."
+Media queries,Media Queries,https://mediaqueri.es/,examples,,
+Stock photos,Morguefile,https://morguefile.com/,resource,,Free stock photos
+Stock photos,Negative Space,https://negativespace.co/,resource,,Free stock photos
+Stock photos,Pixabay,https://pixabay.com/,resource,,Free stock photos
+Lorem Ipsum,Samuel L. Ipsum,https://slipsum.com/,resource,,Motherfucking placeholder text generator motherfucker!
+Wireframing,Sneakpeekit,https://sneakpeekit.com/,tool,,"Printable grids for design wireframing. Planning apps or websites is not always completely digital: sometimes you may need pencil, paper and some good sketch sheet templates to speed up your creative process."
+Audio,Audacity,https://sourceforge.net/projects/audacity/,resource,,A free multi-track audio editor and recorder
+,SpeckyBoy,https://speckyboy.com/,blog,,Front-end free learning resources
+,SpeckyBoy,https://speckyboy.com/100-css-libraries-frameworks-tools/,,,"Our 100 Favorite CSS Libraries, Frameworks and Tools from 2018"
+Bootstrap,Start Bootstrap,https://startbootstrap.com/,tool – template,,"Bootstrap themes, templates, and more to help you start your next project!"
+Stock photos,StockSnap,https://stocksnap.io/,resource,,Free stock photos
+Icons,Noun Project,https://thenounproject.com/,resource,,These icons behave as text in CSS3
+Stock photos,Unsplash,https://unsplash.com/,resource,,Free stock photos
+Color,WebAIM,https://webaim.org/resources/contrastchecker/,"tool – color, a11y/accessibility",,Color contrast checker to see if your scheme passes accessibility standards
+Bootstrap,Bootstrap Zero,https://www.bootstrapzero.com/templates/free,tool – template,,50 free Bootstrap themes
+Fonts,DaFont,https://www.dafont.com/,resource,,Search from this database of downloadable fonts
+Wireframing,Telepathy,https://www.dtelepathy.com/blog/design/learning-to-wireframe-10-best-practices,blog,,"Wireframing's ultimate purpose is to create an ideal space for collaborative conversations about design solutions, while supporting iterations and driving rapid ideation."
+Fonts,Font Squirrel,https://www.fontsquirrel.com/,resource,,Search from this database of downloadable fonts
+Stock photos,Pexels,https://www.pexels.com/,resource,,Free stock photos
+QR Code Generator,QR Stuff,https://www.qrstuff.com/,"tool – generator, resource",,
+Backgrounds,Transparent Textures,https://www.transparenttextures.com/,resource,,
+Stock video,Videvo,https://www.videvo.net/,resource,,Free stock video footage
+,Web Designer Depot,https://www.webdesignerdepot.com/,blog,,
+Code challenge,Codier,https://codier.io/,practice,,Explore and attempt front-end challenges
+Favicons,Favicon.io,https://favicon.io/favicon-converter/,resource,,Generate favicon from an image

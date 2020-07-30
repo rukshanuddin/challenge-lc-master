@@ -1,0 +1,6 @@
+Topic,Site Name,Link,Flatiron Section,Category,Languages & Frameworks,Comments
+React / Redux,GitHub,https://github.com/markerikson/react-redux-links,React/Redux,Megalist - All Topics,React,Curated list of resources from one of the readt/redux maintainers
+React,GoalKicker,https://books.goalkicker.com/ReactJSBook/,React/Redux,Book - All Topics,React,Free PDF book compiled from SO covering a wide range of React topics
+Hooks / Reducers,Kent C Dodds Blog,https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks,React/Redux,Hooks - Blog,React,State Reducers with Hooks
+Hooks,Egghead,https://egghead.io/playlists/react-hooks-and-suspense-650307f2,React/Redux,Hooks - Courses,React,REQUIRES EGGHEAD SUB (good resource if you have it): Tutorials with State hooks
+TDD,Youtube,https://www.youtube.com/watch?v=kCR3JAR7CHE&list=PLV5CVI1eNcJgCrPH_e6d57KRUTiDZgs0u,React/Redux,TDD - Video,React,TDD with React Video

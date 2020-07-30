@@ -1,0 +1,14 @@
+Topic,Site Name,Link,Flatiron Section,Category,Languages & Frameworks,Comments
+Clauses,SQLClauses,http://www.sqlclauses.com/sql+aggregate+functions,SQL,free learning,SQL,SQL aggregate functions
+SELECT,Zet Code,http://zetcode.com/db/sqlite/select/,SQL,blog,"SQL, SQLite3",The SELECT statement in SQLite
+SQLite3,SQL Notes for Professionals,https://books.goalkicker.com/SQLBook/,SQL,book,SQL,Free book about SQL compiled by the people at Stack Overflow
+GUI,Postico,https://eggerapps.at/postico/,,tool – GUI,"SQL, PostgreSQL",A modern PostgreSQL client for the Mac
+SELECT,SQLBolt,https://sqlbolt.com/lesson/select_queries_review,SQL,free learning,SQL,Simple SELECT queries
+GUI,DB Browser for SQLite,https://sqlitebrowser.org/,,tool – GUI,"SQL, SQLite3",The Official home of the DB Browser for SQLite
+SQLite3,SQL Zoo,https://sqlzoo.net/,SQL,free learning,SQL,Free tutorial site that also allows you to run SQL on the fly
+Clauses,Essential SQL,https://www.essentialsql.com/what-is-the-difference-between-where-and-having-clauses/,SQL,blog,SQL,Difference between WHERE and HAVING clauses
+GUI,pgAdmin,https://www.pgadmin.org/,,tool – GUI,"SQL, PostgreSQL","pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world."
+SQLite3,SQLite,https://www.sqlite.org/docs.html,SQL,documentation,"SQL, SQLite3",
+PostgreSQL,PostgreSQL Exercises,https://pgexercises.com/,,"free learning, practice","SQL, PostgreSQL","PGExercises provides a series of questions and explanations built on a single, simple dataset. It's designed for use as a partner to a good book or Postgres' excellent documentation."
+SQL,Khan Academy,https://www.khanacademy.org/computing/computer-programming/sql,SQL,"free learning, practice",SQL,"Intro to SQL with videos, readings, and practice problems"
+SQL intro,Chartio,https://chartio.com/learn/sql/introduction/,SQL,free learning,SQL,Intro to SQL with examples and visual representation
